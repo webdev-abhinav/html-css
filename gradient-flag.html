@@ -1,0 +1,35 @@
+<!--Gradient is used to mix color, we can use with any background property like backgroundimg also-->
+<!--To top define flow of color: orange will be on top , to botton: orange will be bottom & green on top-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        #gradient
+        {
+            background: linear-gradient(to top, orange, white, green);
+            height: 800px;
+            width: 1700px;            
+        }
+        #post        {
+            position: absolute;
+            top: 350px;
+            left: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gradient">
+        <img src="https://www.picng.com/upload/chakra/png_chakra_41014.png" height="160" id="post" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #relmain
+       {
+        background-color: yellow;
+        border: 1px solid black;
+        width: 40%;
+        padding: 30px;
+        float: left;
+        margin: 10px;
+       }
+
+        #befabs
+        {
+            
+            background-color: violet;
+            border: 1px solid black;
+            padding: 15px;
+            
+        }
+        #aftabs
+        {
+            position: absolute;
+            top:100px;
+            left: 500px;
+            background-color: violet;
+            border: 1px solid black;
+            padding: 15px;
+            
+        }
+     </style>
+</head>
+<body>
+    <div id="relmain">
+        <h2>Before without Position Absolue</h2>
+        <h1>Position: Absolute-> Moves according to main body</h1>
+        <div id="befabs">2) Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, minima?</div>
+        <div>3) Hey there demo text</div>
+    </div>
+
+
+    <!--2) Element is overlapping before position Absolute because it is moving acc to main body top:100px, left: 500px-->
+    
+    <div id="relmain">
+        <h2>After Position Absolute</h2>
+        <h1>Position: Absolute-> Moves according to main body</h1>
+        <div id="aftabs">2) Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, minima?</div>
+        <div>3) Hey there demo text</div>
+    </div>
+</body>
+</html>
