@@ -1,2 +1,2 @@
 # html-css
-HTML &amp; CSS
+Made for learning HTML &amp; CSS
